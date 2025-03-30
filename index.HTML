@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./ARIZASTYLE.CSS" />
+    <link rel="icon" href="./IMAGE/hero-img.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ARIZA YUBORISH</title>
+  </head>
+  <body>
+    <div class="con pastga">
+      <img src="./IMAGE/hero-img.svg" alt="LOGO" width="100%" class="img" />
+      <h1 class="container h1">SOG`LOMLASHTIRISH</h1>
+      <h2 class="container h2">MARKAZI</h2>
+    </div>
+    <form class="con">
+      <div class="input-flex">
+        <div class="flex-left">
+          <label for="fname">ISM FAMILYANGIZ</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="ISM FAMILYANGIZ"
+            required
+          />
+        </div>
+        <div class="flex-right">
+          <label for="lname">TELEFON RAQAMINGIZ</label>
+          <input
+            type="number"
+            id="lname"
+            name="number"
+            placeholder="TELEFON RAQAMINGIZ"
+            required
+          />
+        </div>
+      </div>
+      <div class="input-flex">
+        <div class="flex-left">
+          <label for="manzil">UY MANZILINGIZ</label>
+          <input
+            type="text"
+            id="manzil"
+            name="firstname"
+            placeholder="UY MANZILINGIZ"
+            required
+          />
+        </div>
+        <div class="flex-right">
+          <label for="country">KASSALLIK TURINI TANLANG</label>
+          <select id="country" name="country">
+            <option value="Jinsiy zaiflik">Jinsiy zaiflik</option>
+            <option value="Prastata shamollashi">Prastata shamollashi</option>
+            <option value="Qon aylanishi susayishi">Qon aylanishi susayishi</option>
+            <option value="Ovqat hazm qilish organlari">Ovqat hazm qilish organlari</option>
+          </select>
+        </div>
+      </div>
+        <div class="flex-left yuborish" style="width: 100%;">
+          <input
+            onclick="sendtelegram()"
+            type="submit"
+            value="YUBORISH"
+            class="color"
+          />
+        </div>
+      <div class="prosto"></div>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
