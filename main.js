@@ -36,6 +36,6 @@ var sendtelegram = function () {
   document.getElementById("lname").value = "";
   document.getElementById("country").value = "";
   alert("🔴 MA`LUMOTLARINGIZ SAQLANDI TEZ ORADA SIZ BILAN BO`G`LANAMIZ ⚪️");
-  window.location.href = "https://www.instagram.com/_torakhulov_1?igsh=MTRkYmpqaTl1ZHJ2eg==";
+  window.location.href = "https://www.instagram.com/urolig_habibulloh_uzb?igsh=MW9pdnM5cGU1YzJwMQ==";
   return false;
 };
